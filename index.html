@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="apps.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <!--header-->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="">
+                <h4>I can code</h4>
+            </a>
+
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active_link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resume</a>
+                </li>
+               
+                <li class="menu_item">
+                    <a href="#services" class="menu_link">Services</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class=" tonggle-icon"></ion-icon>
+        </div>
+    </header>
+    <!--aha haja ya link yama icons itangura na script-->
+    <!----main script-->
+    <!----hero section-->
+   
+    <main>
+        <section class="hero section" id="hero">
+            <div class="hero_container grid">
+                <div class="hero_content">
+                    <h4>hi there,</h4>
+                    <h1>I'm Leilla Carmene NTIRAMPEBA
+                        <span class="typed" data_typed-items="Designer, Developer,Freelancer"></span>
+                    </h1>
+                    <p>
+                        I'm creative designer based in Kigali city,and I'm very passionate and dedicate to my work
+                    </p>
+                    <div class="hero_social">
+                        <a href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <a href="#contact" class="btn">
+                        Read More
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                <!--link ya type-->
+                     <img src="images/ac965059-b14d-43f3-8cf8-fbd49dc59ceb.jpg" alt=""> <!--iyanje yo hirya-->
+                </div>
+            </div>
+        </section>
+
+        <!--about section-->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="IMG_0475.JPG" alt="">
+                </div>
+                <div class="about_content">
+                    <h1>I make a professional and creative design</h1>
+                    <p>
+                        I'm Leilla Carmene NTIRAMPEBA, a software developer,
+                         and I'm available to help your company with
+                         any software development problems.
+                        You may need some ideas to design an amazing web. I am an expert in web designer.
+                    </p>
+                    <div class="about_info">
+                        <div>
+                            <span class="number">200</span>
+                            <br>
+                            <span class="text">Completed <br>projects</span>
+                        </div>
+                        <div>
+                            <span class="number">120</span>
+                            <br>
+                            <span class="text">Positive <br>review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            </div>
+
+        </section>
+        <!-----resume section-->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+            <div class="resume_container container grid">
+                <div class="resume_taps">
+                    <ul>
+                        <li>
+                            <a href="#page.1" class="current">Education</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#page.2">Skills</a>
+                        </li>
+                        
+                      
+                    </ul>
+
+                </div>
+                <div class="resume_content">
+                    <div id="page-1" class="page one"></div>
+                    <div class="page_heading">Education</div>
+                    <div class="resume_wrap">
+                        <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>    
+
+                        </div>
+                        <div class="resume_wrap-content">
+                            <span class="date">2023-2024</span>
+                            <h4>Web Development</h4>
+                            <span class="position">Alight Coding School</span>
+                            <p>I studied web development at Alight coding school <br>
+                            and for now I'm a good web developer. </p>
+                        </div>
+                    </div>
+                        
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                            <ion-icon name="school-outline"></ion-icon>    
+    
+                            </div> 
+                            <div class="resume_wrap-content">
+                                <span class="date">2023-2024</span>
+                                <h4>UI/UX Designer</h4>
+                                <span class="position">Alight Coding School</span>
+                                <p>I started from zero but now I can guarantee to <br>
+                                    design an amazing wesite .</p>
+                             </div>
+                             
+            </div>     
+
+                         <!--   <div class="resume_wrap">;
+                           <div class="resume_wrap-icon">
+                          <ion-icon name="school-outline"></ion-icon>    
+                 
+                           </div>
+                           <div class="resume_wrap-content">
+                            <span class="date">2023-2024</span>
+                            <h4>Web Development</h4>
+                            <span class="position">Alight Coding School</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing alit. NEno
+                                laboriosam facilis culpa dignissimos ,corporis dicts, aperiam harum
+                                illo excepturi iste ipsam quidem comodi delectus neque? </p>
+                </div>-->
+                <div id="page-2" class="page two">
+                    <div class="page_heading">Skills</div>
+                    <div class="progressBoxs grid">
+                        <div class="progressBox">
+                        <div class="progress_name">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress_bar" style="width: 90%;"></div>
+
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>CSS</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+
+                                    <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>Javascript</span>
+                                            <span>65%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style="width: 65%;"></div>
+
+                                            <div class="progressBox">
+                                                <div class="progress_name">
+                                                    <span>JQuery</span>
+                                                    <span>70%</span>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress_bar" style="width: 90%;"></div>
+
+                                                    <div class="progressBox">
+                                                        <div class="progress_name">
+                                                            <span>photoshop</span>
+                                                            <span>85%</span>
+                                                        </div>
+                                                        <div class="progress">
+                                                            <div class="progress_bar" style="width: 85%;"></div>
+                        </div>
+                        </div>
+                        <!--languages section
+                        <div id="page-3" class="page three">
+                            <div class="page_heading">Language spoken</div>
+                            <div class="progressBoxs grid">
+                                <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>ENGLISH</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+        
+                                    <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>FRENCH</span>
+                                            <span>70%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style="width: 70%;"></div>
+        
+                                            <div class="progressBox">
+                                                <div class="progress_name">
+                                                    <span>SWAHILI</span>
+                                                    <span>90%</span>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress_bar" style="width: 90%;"></div>
+        
+                                                    <div class="progressBox">
+                                                        <div class="progress_name">
+                                                            <span>KIRUNDI</span>
+                                                            <span>95%</span>
+                                                        </div>
+                                                        <div class="progress">
+                                                            <div class="progress_bar" style="width: 95%;"></div>
+        
+                                                           
+                                                        </div>
+                    </div>
+                
+            </div>
+     </section>-->
+   <!--portifolio section
+     <section class="Portfolio section" id="Portfolio">
+        <h2 class="section_title">Portfolio</h2>
+
+        <div class="Portfolio_container container">
+            <ul class="Portfolio_filter">
+                <li data-filter="*" class="filter-active">Card</li>
+               <!-- <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-app">Web</li>-->
+            </ul>
+            
+            <!--<div class="Portfolio_wrap-container">
+                <div class="Portfolio_item filter-web">
+                    <div class="Portfolio_wrap">
+                        <img src="ibirato birimwo ivyatsi.jpeg" alt=""class="img-fluid">
+                    <div class="Portfolio_info">
+                        <h4>Web3</h4>
+                        <p>Web</p>
+                        <div class="Portfolio_links">
+                            <a href="#"><i class="uil uil-plus"></i></a>
+                            <a href="#"><i class="uil uil-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+                     <div class="Portfolio_wrap-container">
+                        <div class="Portfolio_item filter-app">
+                            <div class="Portfolio_wrap">
+                                <img src="laptop.webp" alt=""class="img-fluid">
+                            <div class="Portfolio_info">
+                                <h4>App1</h4>
+                                <p>App</p>
+                                <div class="Portfolio_links">
+                                    <a href="#"><i class="uil uil-plus"></i></a>
+                                    <a href="#"><i class="uil uil-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>-->
+                  <!-- <div class="Portfolio_item filter-app">
+                        <div class="Portfolio_wrap">
+                            <img src="IMG-20230818-WA0003.jpg" alt=""class="img-fluid">
+                        <div class="Portfolio_info">
+                            <h4>App2</h4>
+                            <p>App</p>
+                            <div class="Portfolio_links">
+                                <a href="#"><i class="uil uil-plus"></i></a>
+                                <a href="#"><i class="uil uil-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div> 
+                    <div class="Portfolio_wrap-container">
+                    <div class="Portfolio_item filter-card">
+                        <div class="Portfolio_wrap">
+                            <img src="laptop.webp" alt=""class="img-fluid">
+                            
+                        <div class="Portfolio_info">
+                            <h4>Card2</h4>
+                            <p>Card</p>
+                            <div class="Portfolio_links">
+                                <a href="#"><i class="uil uil-plus"></i></a>
+                                <a href="#"><i class="uil uil-link"></i></a>
+                            </div>
+                    </div>
+                
+                    </div>
+                </div>
+                </div> 
+              <!--  <div class="Portfolio_item filter-Card">
+                    <div class="Portfolio_wrap">
+                        <img src="iphone.webp" alt=""class="img-fluid">
+                    <div class="Portfolio_info">
+                        <h4>Card2</h4>
+                        <p>Card</p>
+                        <div class="Portfolio_links">
+                            <a href="#"><i class="uil uil-plus"></i></a>
+                            <a href="#"><i class="uil uil-link"></i></a>
+                        </div>
+                    
+                
+                    
+            </div>
+            <div class="Portfolio_item filter-App">
+                <div class="Portfolio_wrap">
+                    <img src="i pad.jpeg" alt=""class="img-fluid">
+                <div class="Portfolio_info">
+                    <h4>App2</h4>
+                    <p>App</p>
+                    <div class="Portfolio_links">
+                        <a href="#"><i class="uil uil-plus"></i></a>
+                        <a href="#"><i class="uil uil-link"></i></a>
+                    </div>
+               
+           
+        </div>
+                    <div class="Portfolio_item filter-Web">
+                        <div class="Portfolio_wrap">
+                            <img src="camera.jpeg" alt=""class="img-fluid">
+                        <div class="Portfolio_info">
+                            <h4>Web2</h4>
+                            <p>Web</p>
+                            <div class="Portfolio_links">
+                                <a href="#"><i class="uil uil-plus"></i></a>
+                                <a href="#"><i class="uil uil-link"></i></a>
+                            
+            
+            </div>   
+    </div> -->
+     </section>-->
+     
+     <section class="testimonial section">
+        <h2 class="section_title">Testimonial</h2>
+
+        <div class="testimonial_container container swiper">
+        <div class="swiper-wrapper">
+            <div class="testimonial_item swiper-slide"><!--haja link ya boxicon-->
+                <i class="bx bxs-quote-alt-left"></i>
+                <p>I was stressed about finding the one who can make my website <br>
+                so, I finally fund that professional web developer and disigner <br>
+              she did a wonderful work for me in short time. </p>
+        <div class="img_name">
+        <img  src="Snapchat-1065054743_1.jpg" alt=""><!--haja ifoto yuwutanga ubuhamya 1-->
+        <span class="name">Bernardine NGABIRE</span>
+        <span class="post">clients</span>
+        </div>
+         </div>
+        <div class="testimonial_item swiper-slide">
+            <i class="bx bxs-quote-alt-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Hic illo quos iure, quisquam itaque minima recusandae quo 
+                 tempore maiores tenetur corrupti ipsum sequi laboriosam asperiores
+                  expedita. A libero suscipit rem!</p>
+    <div class="img_name">
+    <img src="Snapchat-54494958-1.jpg" alt=""><!--haja ifoto yuwutanga ubuhamya 1-->
+    <span class="name">Noella Dushirimana</span>
+    <span class="post">clients</span>
+</div>
+</div>
+    <div class="testimonial_item swiper-slide">
+        <i class="bx bxs-quote-alt-left"></i>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Hic illo quos iure, quisquam itaque minima recusandae quo 
+             tempore maiores tenetur corrupti ipsum sequi laboriosam asperiores
+              expedita. A libero suscipit rem!</p>
+<div class="img_name">
+<img src="ac965059-b14d-43f3-8cf8-fbd49dc59ceb.jpg" alt=""><!--haja ifoto yuwutanga ubuhamya 1-->
+<span class="name">Hakizimana Constantin</span>
+<span class="post">clients</span>
+</div>
+</div>
+
+<div class="testimonial_item swiper-slide">
+    <i class="bx bxs-quote-alt-left"></i>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Hic illo quos iure, quisquam itaque minima recusandae quo 
+         tempore maiores tenetur corrupti ipsum sequi laboriosam asperiores
+          expedita. A libero suscipit rem!</p>
+<div class="img_name">
+<img  src="IMG_20230605_075903_602.jpg" alt="">haja ifoto yuwutanga ubuhamya 
+<span class="name">Hakizima Hakim</span>
+<span class="post">clients</span>
+
+            </div>
+        </div>
+        
+    </div> 
+     </section>
+     <!--services section-->
+     <section class="Services section" id="services">
+        <h2 class="section_title">Services</h2>
+
+        <div class="services_container container grid">
+            <div class="services_item">
+                <i class="uil uil-window-grid"></i>
+                <h3 class="services_title">UI/UX  <br>Designer</h3>
+                <span class="services_button">
+                    View More <i class="uil uil-angle-right"></i>
+                </span>
+          <div class="services_modal">
+
+<div>
+
+<ion-icon name="close-outline" class="close-icon"></ion-icon>
+<h3 class="services_modal-title">UI/UX Designer</h3>
+<p class="services_modal-description">Services with more than 3 years<br> of
+    experience providing quality work<br> to clients and companies.
+</p>
+<ul>
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I develop the user interface </p>
+    </li>
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">Web page development </p>
+    </li>
+
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I create ux element interactions</p>
+    </li>
+
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I position your company brand </p>
+    </li>
+</ul>
+</div>
+
+          </div>
+            </div>
+
+<!--copy of backend-->
+<div class="services_container container grid">
+    <div class="services_item">
+        <i class="uil uil-window-grid"></i>
+        <h3 class="services_title">Frontend<br>Developer</h3>
+        <span class="services_button">
+            View More <i class="uil uil-angle-right"></i>
+        </span>
+  <div class="services_modal">
+
+<div>
+<ion-icon name="close-outline" class="close-icon"></ion-icon>
+<h3 class="services_modal-title">Frontend Developer</h3>
+<p class="services_modal-description">Services with more than 3 years of
+    experience providing quality work to clients and companies
+</p>
+<ul>
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I develop the user interface </p>
+    </li>
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">Web page development </p>
+    </li>
+
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I create ux element interactions</p>
+    </li>
+
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I position your company brand </p>
+    </li>
+</ul>
+            </div>
+  </div>
+   <!--copy ya copy--> 
+    
+</div>
+
+<div class="services_container container grid">
+    <div class="services_item">
+        <i class="uil uil-window-grid"></i>
+        <h3 class="services_title">Branding<br>Designer</h3>
+        <span class="services_button">
+            View More <i class="uil uil-angle-right"></i>
+        </span>
+  <div class="services_modal">
+
+<div>
+<ion-icon name="close-outline" class="close-icon"></ion-icon>
+<h3 class="services_modal-title">Branding Designer</h3>
+<p class="services_modal-description">Services with more than 3 years of
+    experience providing quality work to clients and companies
+</p>
+<ul>
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I develop the user interface </p>
+    </li>
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">Web page development </p>
+    </li>
+
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I create ux element interactions</p>
+    </li>
+
+    <li>
+        <i class="uil uil-check-circle"></i>
+        <p class="services_modal-info">I position your company brand </p>
+    </li>
+</ul>
+</div>
+            </div>
+        </div> 
+    </div> 
+
+
+    
+    
+</div>
+
+
+     </section>
+     <!------contact section-->
+     <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+
+        <div class="contact_container container">
+            <div class="contact_content">
+                <div class="inputs">
+                    <input type="text" placeholder="Name">
+                    <input type="email"placeholder="Email">
+                </div>
+                <input type="password" placeholder="password">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <a href="#" class="btn">Send Message
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+
+            </div>
+
+        </div>
+
+     </section>
+   <!---footer section-->
+   <footer>
+    <div class="footer_bg">
+        <div class="footer_container container">
+            <div class="main_footer">
+                <div class="footer_social">
+                    <a href="#"><box-icon type='logo' name='facebook'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='twitter'></box-icon></a>
+                </div>
+                <h3>lineCode</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Temporibus officiis necessitatibus molestiae laudantium atque 
+                    dolorum ipsa quibusdam dolore
+                     placeat impedit! Voluptatum laudantium repellendus odit laboriosam,
+                      alias cupiditate reprehenderit ad similique?</p>
+            </div>
+            <div class="footer_copy">&#169; leillaCode.Allright </div>
+        </div>
+    </div>
+   </footer>
+   
+  
+    </main>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script> 
+<script src="https://cdn.js"></script>   
+    <!--link ya swiper js-- ama link kumunotw wa 1 19 31>
+    script src="https://cdn.js"></script>
+    mixtup link-->
+    <!--typed js link-->
+    <!--ionIcon link-->
+  
+</body>
+
+</html>
